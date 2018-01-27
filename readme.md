@@ -5,16 +5,17 @@ A lightweight addon to show the weight percentage of your knapsack.
 ### Usage:
 Type `/weight` in chatbox, and then the results are shown in messages.
 
-![type `/weight` in chatbox](demo/command.jpg)
+![type `/weight` in chatbox](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/command.JPG)
 
-![Alt text](demo/output1.jpg)
+
+![result image](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output1.jpg)
 
 ### More commands:
 `/weight 0.5` to filter out categories with weight <= 5%
-![Alt text](demo/output3.jpg)
+![filtered result](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output3.jpg)
 
 `/weight potion` to separate *potion* from *Consume*
-![Alt text](demo/output2.jpg)
+![result](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output2.jpg)
 
 ### Note:
 The total weight (in knapsack) shown in result only includes items inside knapsack, but does not include wore equipment.
