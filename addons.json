@@ -1,7 +1,7 @@
 [
 	{
 		"name" : "Weight Percentage Calculator",
-		"file" : "weightspercentage",
+		"file" : "weightpercentage",
 		"extension" : "ipf",
 		"fileVersion" : "v0.1.2",
 		"releaseTag" : "v0.1.2",
