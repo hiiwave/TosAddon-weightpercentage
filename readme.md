@@ -7,16 +7,16 @@ Type `/weight` in chatbox, and then the results are shown in messages.
 
 ![type `/weight` in chatbox](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/command.JPG)
 
-![result image](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output1.jpg)
+![result image](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output1.JPG)
 
 ### More commands:
 `/weight 0.5` to filter out categories with weight <= 5%
 
-![filtered result](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output3.jpg)
+![filtered result](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output3.JPG)
 
 `/weight potion` to separate *potion* from *Consume*
 
-![result](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output2.jpg)
+![result](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output2.JPG)
 
 ### Note:
 The total weight (in knapsack) shown in result only includes items inside knapsack, but does not include wore equipment.
