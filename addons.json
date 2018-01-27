@@ -6,7 +6,7 @@
 		"fileVersion" : "v0.1.2",
 		"releaseTag" : "WeightPercentage",
 		"unicode" : "⛄",
-		"description" : "Show the weight percentage of your backpack. (e.g. Consume(Potion): 1977 (49.0%), Etc: 1184 (29.4%), ...) so that you can quickly know how to lighten your backpack.",
+		"description" : "Show the weight percentage of your backpack. (e.g. Consume(Potion): 1977 (49.0%), Etc: 1184 (29.4%), ...) so that you can quickly know how to lighten your backpack. Type command /weight in chatbox to use.",
 		"tags" : [
 			"item", "weight"
 		]
