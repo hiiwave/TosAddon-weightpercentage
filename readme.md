@@ -10,7 +10,7 @@ Type `/weight` in chatbox, and then the results are shown in messages.
 ![result image](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output1.JPG)
 
 ## More commands:
-`/weight 0.5` to filter out categories with weight <= 5%
+`/weight 3` to filter out categories with weight <= 3%
 
 `/weight potion` to separate *potion* from *Consume*
 
