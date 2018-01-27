@@ -1,6 +1,6 @@
 # Tree of Savior Addon: Weight Percentage Calculator
 
-A lightweight addon to show the weight percentage of your knapsack.
+A lightweight addon showing the weight percentage of your knapsack.
 
 ## Usage:
 Type `/weight` in chatbox, and then the results are shown in messages.
