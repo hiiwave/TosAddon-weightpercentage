@@ -1,7 +1,7 @@
 local addonName = "WEIGHTPERCENTAGE";
 local addonNameLower = string.lower(addonName);
 local author = "hiiwave";
-local version = "0.1.2"
+local version = "0.1.3"
 
 _G["ADDONS"] = _G["ADDONS"] or {};
 _G["ADDONS"][author] = _G["ADDONS"][author] or {};
@@ -54,19 +54,21 @@ end
 --! @param isPotionSeparated whether separate potion from Consume
 function weightScale:print(printfunc, percentage_threshold, isPotionSeparated)
   local weights_map = self:calculateWeightMap(isPotionSeparated)
-  local sum = self:totalWeight(weights_map)
+  local maxweight = GetMyPCObject().MaxWeight
+  local total = self:totalWeight(weights_map)
   percentage_threshold = percentage_threshold or 0  --0 is treated true in lua
   printfunc("== Weights ==")
   for category, w in spairs(weights_map,
                      function(t,a,b) return t[b] < t[a] end) do
-    local percentage = w / sum * 100
+    local percentage = w / maxweight * 100
     if percentage <= percentage_threshold then break end
     local repr = string.format("%s: %d (%.1f%%)", category, w, percentage)
     printfunc(repr)
   end
   -- printfunc("(ignore those < percentage_threshold%)")
-  printfunc("Total: ".. sum)
-  printfunc("==========")
+  local total_percentage = total / maxweight * 100
+  printfunc(string.format("Total: %d (%.1f%%)", total, total_percentage))
+  -- printfunc("==========")
 end
 
 --! Create a map [category: weight] and return
@@ -86,6 +88,8 @@ function weightScale:calculateWeightMap(isPotionSeparated)
       weights_map[category] = self:sumweight(items)
     end
   end
+  local pc = GetMyPCObject();
+  weights_map['Equiping'] = pc.NowWeight - self:totalWeight(weights_map)
   return weights_map
 end
 
