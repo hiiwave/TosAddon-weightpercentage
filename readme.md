@@ -17,9 +17,9 @@ Type `/weight` in chatbox, and then the results are shown in messages.
 ![result](https://github.com/hiiwave/TosAddon-weightpercentage/blob/master/demo/output2.JPG)
 
 ## Note:
-The total weight (in backpack) shown in result only includes items inside backpack, but does not include wore equipment.
+The total weight (in backpack) shown in result only includes items inside backpack. It does not include wore equipment.
 
-That is, `total weight` = `total weight in backpack` + `total weight of wore equipments`
+That is, `total weight in all` = `total weight in backpack` + `total weight of wore equipments`
 
 ## Contibution:
 Pull request is welcome :)
