@@ -21,5 +21,7 @@ The total weight (in backpack) shown in result only includes items inside backpa
 
 That is, `total weight in all` = `total weight in backpack` + `total weight of wore equipments`
 
+The percentage shown is calculated over `total weight in backpack`, which is a bit larger than the percentage over `total weight in all`.
+
 ## Contibution:
 Pull request is welcome :)
