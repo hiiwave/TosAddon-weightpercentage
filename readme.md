@@ -1,3 +1,7 @@
+***This Repo is deprecated. Project has been moved to https://github.com/hiiwave/tosaddons/tree/master/weightpercentage***
+
+---
+
 # Tree of Savior Addon: Weight Percentage Calculator
 
 A lightweight addon showing the weight percentage of your backpack.
